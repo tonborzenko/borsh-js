@@ -1,17 +1,8 @@
-# Borsh JS
+# Borsh JS ESM
 
-[![Project license](https://img.shields.io/badge/license-Apache2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Project license](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Discord](https://img.shields.io/discord/490367152054992913?label=discord)](https://discord.gg/Vyp7ETM)
-[![Travis status](https://travis-ci.com/near/borsh.svg?branch=master)](https://travis-ci.com/near/borsh-js)
-[![NPM version](https://img.shields.io/npm/v/borsh.svg?style=flat-square)](https://npmjs.com/borsh)
-[![Size on NPM](https://img.shields.io/bundlephobia/minzip/borsh.svg?style=flat-square)](https://npmjs.com/borsh)
+**Borsh ESM** is an implementation of the [Borsh] compatible with ES modules.
 
-**Borsh JS** is an implementation of the [Borsh] binary serialization format for
-JavaScript and TypeScript projects.
-
-Borsh stands for _Binary Object Representation Serializer for Hashing_. It is meant to be used in security-critical projects as it prioritizes consistency,
-safety, speed, and comes with a strict specification.
+That package implemented as experiment, and tested only in browser.
 
 ## Examples
 ### Serializing an object
