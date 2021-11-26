@@ -1,6 +1,6 @@
 {
   "name": "borsh-esm",
-  "version": "0.6.2",
+  "version": "0.6.3",
   "description": "Borsh library as ES module",
   "type": "module",
   "main": "esm/index.js",
