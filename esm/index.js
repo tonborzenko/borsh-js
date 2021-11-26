@@ -6,11 +6,6 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 import BN from "bn.js";
 import bs58 from './bs58';
-// TODO: Make sure this polyfill not included when not required
-import * as encoding from "text-encoding-utf-8";
-const TextDecoder = typeof global.TextDecoder !== "function"
-    ? encoding.TextDecoder
-    : global.TextDecoder;
 const textDecoder = new TextDecoder("utf-8", { fatal: true });
 export function baseEncode(value) {
     if (typeof value === "string") {
